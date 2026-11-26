@@ -21,7 +21,7 @@ Some assets react to common information earlier than others. If the leaders can 
 - **Evaluation.** PnL rescaled to 15% annualized volatility; Sharpe, Sortino and Calmar ratios and hit rate.
 
 ## Data
-The data are **not included** in this repository. They are daily stock returns from CRSP (as stated in the thesis slides), a licensed database that cannot be redistributed. TODO: access route used (for example WRDS) and the exact criterion used to select the 500 most liquid stocks; the step that builds `filtered_data.csv` from the raw extract is not part of the notebook.
+The data are **not included** in this repository. They are daily stock returns from CRSP, a licensed database that cannot be redistributed; the extract was provided by the thesis supervisor. The universe is the S&P 500 constituents over 2000-2019 (500 stocks). The step that builds `filtered_data.csv` from the raw extract is not part of the notebook, and the notebook only shows aggregated results: outputs that displayed security-level data were removed.
 
 The notebook reads `filtered_data.csv` (long format, one row per stock and trading day) with these columns:
 
