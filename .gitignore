@@ -1,0 +1,15 @@
+# Data (licensed, not redistributable)
+data/
+*.csv
+*.parquet
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
